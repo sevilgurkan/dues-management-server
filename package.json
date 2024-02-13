@@ -8,6 +8,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --build",
+    "build:render": "npm install && tsc --build",
     "dev": "nodemon src/index.ts",
     "start": "node dist/"
   },
